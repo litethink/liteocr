@@ -4,7 +4,7 @@ from model import OcrHandle
 dbnet_max_size = 6000
 short_size = 960 *1
 ocrhandle = OcrHandle()
-filename = "test/id.jpg"
+filename = "test/id.jpeg"
 f = open(filename,"rb+")
 img_bytes = b''.join(f.readlines())
 img = Image.open(BytesIO(img_bytes))
